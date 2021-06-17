@@ -1,0 +1,295 @@
+html{
+    height: 100%;
+}
+
+/*============Body============*/
+body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    
+}
+
+.body-home{
+    background-image: url('imagies/menu-background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body-meals{
+    background-image: url('imagies/back2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    
+}
+.body-meal{
+    background-image: url('imagies/food-pagebackground2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 100px;
+    
+}
+/*============Header============*/
+
+.header{ 
+    background-color: black;
+    
+    width: 100%;
+    height: 100px;
+    top: 0;
+    
+    position:fixed;
+    overflow:hidden;
+    
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 25px;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.header img{
+    width:250px;
+    padding-top: 1px;
+    padding-right: 100px;
+    padding-bottom:20px;
+     
+}
+
+    /*============Home Page============*/
+
+#home-logo-img{
+    width:2;
+    display: block;
+    margin: auto;  
+    padding: 25px 10px 10px 10px ;
+    
+}
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;   
+    padding: 25px;
+}
+        /*==Home page Menu==*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*============Meals Page============*/
+
+        /*==Meals page Menu==*/
+
+.Food {
+      text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.meals{
+    text-decoration: none
+}
+.meal-list a{
+    text-decoration: none;
+}
+
+.meal-list-item h1{
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+}
+.meal-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px;
+    text-align: center;
+} 
+.meal-list-item i{
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: white;
+}
+
+#meal{
+    padding-top: 50px;
+}
+
+
+
+
+/*==========Recipe Page==========*/
+#Menu-Items{
+    padding-top: 50px;    
+}
+/*====Recipe details====*/
+.Starter-Item-Details img{
+      width: 100%; 
+    height: 450px;
+}
+
+.Starter-Item-Details h1{
+    font-size: 25px;
+    text-align: center;   
+    border:  5px solid white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.Starter-Item-Details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+}
+
+.Time-Servings{
+    margin-left: 25px;
+    margin-right: 25px;   
+    color: white;
+}
+.Time-Servings p{
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+     
+}
+
+.Extras{
+    line-height: 25px;
+    margin-left: 25px;
+    color: white;
+}
+
+.Review{
+    padding-top: 20px;
+    margin-left: 25px; 
+     color: white;
+}
+
+
+
+
+
+/*==========Responsive Layout==========*/
+
+@media only screen and (min-width: 600px) {
+    .#meals {
+        width: 80%;
+        margin: auto;
+    } 
+    #Menu-Items{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1000px){
+      #meals {
+        width: 60%;
+        margin: auto;
+    } 
+    #Menu-Items{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1500px){
+      #meals {
+        width: 40%;
+        margin: auto;
+    } 
+    #Menu-Items{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 720px){
+    .body-home {
+        background-image: url('imagies/menu-background.jpg');
+    }
+     .body-meals {
+        background-image: url('imagies/back2.jpg');
+    }
+    
+}
+
+
+/*=====Buy button=====*/
+
+  
+
+.Buy{
+    background-color: transparent;
+    color: white;
+    border-color:2px solid white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+
+.Buy:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.Buy a{
+    text-decoration: none;
+    color: white;
+}
+.Buy a:hover{
+    background-color: whitesmoke;
+    color: black;  
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
